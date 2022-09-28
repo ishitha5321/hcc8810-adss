@@ -16,7 +16,7 @@ class SidePanelItem extends Component {
 				</div>
 				<div style={{
 					position: "relative", boxSizing: "border-box", width: "87%",
-					display: "inline-block", verticalAlign: "middle"
+					display: "inline-block", verticalAlign: "left"
 				}}>
 					<p style={{ marginBottom: "0", marginTop: "0.25rem" }}>
 						{movie.title + " (" + movie.year + ")"}

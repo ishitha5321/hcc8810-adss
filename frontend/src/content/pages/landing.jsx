@@ -98,6 +98,11 @@ class LandingPage extends Component {
 							<Form.Control as="textarea" rows={1} onChange={this.onValueChange} />
 						</Form.Group>
 					</Row>
+<Row>
+	<Button variant="primary" className="testbutton" onClick={this.userSession} disabled={buttonDisabled}> 
+	  Ishitha's test button
+	</Button>
+</Row>
 					<Row>
 						<Button variant="primary" size="md" className="footer-btn"
 							disabled={buttonDisabled && !this.state.loading}

@@ -69,6 +69,7 @@ body {
 .list-group-item {
 	/* padding: 1.44em 1.44em; */
 	height: 81px;
+	padding: 0;
 }
 
 /*background color change on hover for movie item */
@@ -357,4 +358,17 @@ div .card {
 	outline: 0;
 	z-index: 2080;
 	margin: 0 0 0 9px;
+}
+.testbutton {
+	margin-bottom: 20px;
+}
+
+
+.changebutton {
+	height: 27px;
+	justify-content: center;
+	align-content: center;
+	margin: 0 auto;
+	padding-top: 50%;
+	display: none;
 }

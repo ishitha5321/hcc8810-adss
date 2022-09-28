@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Button } from 'react-bootstrap';
 import StarRatings from 'react-star-ratings';
 
 const defaultMovieIco = require("../res/default_movie_icon.svg");
@@ -22,7 +23,7 @@ class MovieGridItem extends Component {
 				}}>
 				<div className="overlay">
 					<div className={starDivClass}>
-						<StarRatings
+						 <StarRatings
 							rating={currentMovie.rating}
 							starRatedColor="rgb(252,229,65)"
 							starHoverColor="rgb(252,229,65)"
@@ -30,7 +31,9 @@ class MovieGridItem extends Component {
 							starSpacing="1px"
 							changeRating={changeRating}
 							numberOfStars={5}
-							name={currentMovie.movie_id} />
+						name={currentMovie.movie_id} />
+                     <Button> up </Button>
+						<p> |  </p>  <Button>down</Button>
 					</div>
 					{/* <p style={{color: "white"}}>Yes | No</p> */}
 				</div>

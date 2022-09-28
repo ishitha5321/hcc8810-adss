@@ -25,8 +25,8 @@ class MovieSidePanel extends Component {
 			<div className="col-sm-4 gy-sm-0" id={this.props.id}>
 				<div className="align-items-center justify-content-center"
 					style={{
-						height: byline.length > 0 ? "108px" : "81", padding: "27px 18px",
-						textAlign: "center", borderRadius: "0.3rem 0.3rem 0 0",
+						height: byline.length > 0 ? "108px" : "81", padding: "27px 18px0",
+						textAlign: "Centre", borderRadius: "0.3rem 0.3rem 0 0",
 						backgroundColor: "#e9ecef"
 					}}>
 					<h5>{this.props.panelTitle}</h5>
